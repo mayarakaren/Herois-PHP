@@ -11,7 +11,7 @@
     for($i = 0; $i < 5; $i++){
       if($heroi == $heroiMarvel[$i]){
         for($j = 0; $j < $qtd; $j++){
-          echo "<img src='imgs/Marvel/".strtolower($imgs).".png'>";
+          echo "<img src='../imgs/Marvel/".strtolower($imgs).".png'>";
         }
       }
     }
@@ -20,7 +20,7 @@
     for($i = 0; $i < 5; $i++){
       if($heroi == $heroiDc[$i]){
         for($j = 0; $j < $qtd; $j++){
-          echo "<img src='imgs/Dc/".strtolower($imgs).".png'>";
+          echo "<img src='../imgs/Dc/".strtolower($imgs).".png'>";
         }
       }
     }
