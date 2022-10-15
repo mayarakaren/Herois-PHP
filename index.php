@@ -7,7 +7,7 @@
     <title>Heróis</title>
   </head>
   <body>
-      <form action="herois.php" method="post">
+      <form action="php/herois.php" method="post">
 
       <label>
         Escolha um dos universos abaixo:
